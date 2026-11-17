@@ -1,0 +1,11 @@
+target/
+out/
+build/
+.idea/
+*.iml
+.vscode/
+*.class
+*.log
+nohup.out
+.DS_Store
+Thumbs.db
