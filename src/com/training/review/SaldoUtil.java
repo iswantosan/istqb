@@ -33,6 +33,9 @@ public class SaldoUtil {
     }
 
     public double rataRataSaldo(long totalSaldo, int jumlahAkun) {
+        if (jumlahAkun == 0) {
+            return 0.0;
+        }
         return (double) totalSaldo / jumlahAkun;
     }
 
